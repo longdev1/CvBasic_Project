@@ -1,0 +1,408 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.main {
+  padding: 50px;
+  padding-top: 20px;
+  background-color: #313131;
+}
+.addCV {
+  font-size: 20px;
+  width: 80%;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #3e7ed2;
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+form {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+input {
+  border: 2px solid black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+strong {
+  color: red;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: #3e7ed2;
+  font-weight: bold;
+}
+::placeholder {
+  font-style: italic;
+  opacity: 90%;
+}
+textarea::placeholder {
+  color: #3e7ed2;
+  font-weight: bold;
+}
+.titleForm {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: rgb(235, 235, 228);
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-top: 10px;
+  /* border-radius: 5px; */
+}
+
+.formProfile {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.inputProfile,
+.input_Experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inputProfile_field,
+.inputExperience__item {
+  width: calc(
+    33.33% - 10px
+  ); /* 3 div trên cùng, 10px là khoảng cách giữa chúng */
+  margin-bottom: 10px;
+}
+
+.inputProfile_field:nth-child(4),
+.inputProfile_field:nth-child(5),
+.inputExperience__item:nth-child(4),
+.inputExperience__item:nth-last-child(5) {
+  width: calc(50% - 10px);
+}
+
+.inputProfile_field:nth-child(6),
+.inputExperience__item:nth-child(n + 5) {
+  width: 100%; /* 1 div cuối cùng */
+}
+
+.inputProfile_field input,
+textarea {
+  margin-top: 5px;
+}
+
+/* Điều chỉnh margin, padding và border cho input và textarea theo ý muốn */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="date"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+input[type="date"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.inputDate {
+  display: flex;
+  flex-direction: column;
+}
+
+.formSkills {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.titleSkill {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgb(235, 235, 228);
+  border: 1px solid #eee;
+}
+
+#title1:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.aboutSkills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutSkills button {
+  padding: 10px;
+  color: white;
+  background-color: #3e7ed2;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.aboutSkills button:hover {
+  opacity: 80%;
+}
+
+.inputSkills,
+.inputExpertises {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inputSkills label,
+.inputExpertises label {
+  font-weight: 400;
+  font-size: 16px;
+}
+.inputSkills input,
+.inputExpertises input {
+  width: 180px;
+  height: 20px;
+}
+
+.inputSkills input::placeholder {
+  font-size: 14px;
+}
+
+.inputSkill_item,
+.inputExpertises_item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.inputSkill__handle,
+.inputExpertises__handle {
+  display: flex;
+  margin-top: 5px;
+}
+.inputSkill_item:nth-child(n + 5) {
+  margin-top: 10px;
+}
+
+.removeLanguage,
+.removeExpertises {
+  margin-left: 5px;
+  padding: 5px;
+  color: white;
+  background-color: #de4a3e;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.removeLanguage:hover,
+.removeExpertises:hover {
+  opacity: 50%;
+}
+.submitBtn {
+  background-color: #3e7ed2;
+  font-weight: bold;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.aboutSkills:nth-child(n + 2) {
+  margin-top: 10px;
+}
+
+.formExperience,
+.formEducation,
+.formSkillSummary {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input_Experience {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputExperience__First {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputExperience_Second textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inputExperience__item .inputExperience__item label {
+  font-weight: 450;
+}
+
+.inputExperience__item input {
+  margin-top: 5px;
+  width: 90%;
+}
+.inputExperience__item label {
+  font-weight: 400;
+}
+.inputExperience__item strong {
+  color: black;
+}
+.inp_textarea {
+  width: 100%;
+}
+
+.remove_ExperienceButton {
+  padding: 8px;
+  color: white;
+  width: 31.4px;
+  background-color: #de4a3e;
+  font-weight: bold;
+  font-size: 20px;
+  height: 40px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.remove_ExperienceButton:hover {
+  opacity: 80%;
+}
+
+.countCompany {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: tahoma;
+  padding: 10px;
+  border-radius: 5px;
+  width: 180px;
+  text-align: center;
+  margin-top: 10px;
+}
+.inputExperience__item label,
+.inputEducation__item label {
+  font-weight: bold;
+}
+
+.input_Education {
+  display: flex;
+}
+
+.inputEducation__item {
+  flex: 1;
+}
+
+.inputEducation__item input {
+  width: calc(
+    100% - 42px
+  ); /* Cung cấp 2px bổ sung để làm tròn số khi tính toán */
+  margin-top: 5px;
+  box-sizing: border-box; /* Đảm bảo kích thước của input bao gồm cả padding và border */
+  padding: 8px;
+  border: 1px solid #ccc; /* Thêm border để tạo ra đường viền cho input */
+}
+
+.inputDate button {
+  padding: 8px;
+  color: white;
+  width: 31.4px;
+  background-color: #de4a3e;
+  font-weight: bold;
+  font-size: 18px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+  left: 10;
+  top: -25;
+}
+
+.backtoPage {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 220px;
+  height: 40px;
+  border-radius: 5px;
+}
+.backtoPage a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.iconBack {
+  color: black;
+}
+
+.backtoPage:hover {
+  opacity: 80%;
+  cursor: pointer;
+}

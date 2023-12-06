@@ -1,0 +1,679 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #313131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  color: black;
+}
+.boxView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  /* background-color: white; */
+  margin-top: 10px;
+}
+.main {
+  width: 700px;
+  max-width: 1000px;
+  background-color: white;
+  box-shadow: 0px 10px 50px #858585;
+}
+.backgroundCV {
+  height: 200px;
+  position: relative;
+  background-color: white;
+  display: flex; /* Sử dụng flexbox cho .backgroundCV */
+}
+
+.CvLeft {
+  width: 40%;
+  max-width: 40%;
+  background-color: #191919;
+}
+.cvCenter {
+  position: absolute;
+  background-color: #043382;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  top: 22%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.cvCenter img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 30px;
+  border: 4px solid white;
+  object-fit: cover;
+}
+
+.cvCenter .profileTitle {
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+.nameProfile {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  /* width: 200px; */
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 3px;
+  /* margin-left: 50px; */
+}
+
+.jobProfile {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.cvRight {
+  width: 65%;
+}
+.content_CV {
+  height: auto;
+  width: 100%;
+  float: right;
+  color: white;
+  display: flex; /* Sử dụng flexbox cho .content_CV */
+}
+
+.contentCV_Left {
+  width: 40%;
+  background-color: #191919;
+}
+
+.cvInfo_Left_Content {
+  margin-top: 20px;
+  padding: 2%;
+}
+.cvInfo_Left_Content .aboutProfile {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutProfile h2 {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutProfile p {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.contentContact {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.iconFont {
+  background-color: #0774bb;
+  padding: 5px;
+  border-radius: 50%;
+}
+.textIcon {
+  margin-left: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+}
+
+.languagesProfile {
+  margin-top: 20px;
+}
+.languagesProfile button {
+  border: 2px solid #043382;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  letter-spacing: 2;
+  margin-bottom: 10px;
+}
+
+.languagesProfile li {
+  margin-top: 5px;
+  margin-left: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+.expertisesProfile {
+  margin-top: 20px;
+}
+.expertisesProfile button {
+  border: 2px solid #043382;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  letter-spacing: 2;
+  margin-bottom: 10px;
+}
+
+.expertisesProfile li {
+  margin-top: 5px;
+  margin-left: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.contentCV_Right {
+  width: 65%;
+  background-color: white;
+}
+
+.cvInfo_Right_Content {
+  padding: 10px;
+}
+
+.Experience button {
+  color: white;
+  background-color: #043382;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  width: 170px;
+  border-radius: 20px;
+  border: none;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.experience_Content {
+  margin-bottom: 20px;
+}
+.experience_Content p {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.experience_Content .aboutJob {
+  margin-top: 5px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 13px;
+}
+.companyLoca,
+.yearOperation {
+  margin-top: 5px;
+}
+.Education button {
+  color: white;
+  background-color: #043382;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  width: 170px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.universityName {
+  margin-bottom: 5px;
+}
+.education_Content {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+}
+.education_Content p {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.education_Content .aboutJob {
+  margin-top: 5px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.education_Content .major {
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 13px;
+}
+.education_Content .yearOperation {
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.skill_Summary button {
+  color: white;
+  background-color: #043382;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  width: 170px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.aboutSkill p {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+#myDropdown {
+  display: none;
+}
+
+form {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+input {
+  border: 2px solid black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3e7ed2;
+}
+
+strong {
+  color: red;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: #3e7ed2;
+  font-weight: bold;
+}
+::placeholder {
+  font-style: italic;
+  opacity: 90%;
+}
+textarea::placeholder {
+  color: #3e7ed2;
+  font-weight: bold;
+}
+.titleForm {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: rgb(235, 235, 228);
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-top: 10px;
+  /* border-radius: 5px; */
+}
+
+.formProfile {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.inputProfile,
+.input_Experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inputProfile_field,
+.inputExperience__item {
+  width: calc(
+    33.33% - 10px
+  ); /* 3 div trên cùng, 10px là khoảng cách giữa chúng */
+  margin-bottom: 10px;
+}
+
+.inputProfile_field:nth-child(4),
+.inputProfile_field:nth-child(5),
+.inputExperience__item:nth-child(4),
+.inputExperience__item:nth-last-child(5) {
+  width: calc(50% - 10px);
+}
+
+.inputProfile_field:nth-child(6),
+.inputExperience__item:nth-child(n + 5) {
+  width: 100%; /* 1 div cuối cùng */
+}
+
+.inputProfile_field input,
+textarea {
+  margin-top: 5px;
+}
+
+/* Điều chỉnh margin, padding và border cho input và textarea theo ý muốn */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="date"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+input[type="date"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.inputDate {
+  display: flex;
+  flex-direction: column;
+}
+
+.formSkills {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.titleSkill {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgb(235, 235, 228);
+  border: 1px solid #eee;
+}
+
+#title1:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.aboutSkills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutSkills button {
+  padding: 10px;
+  color: white;
+  background-color: #3e7ed2;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.aboutSkills button:hover {
+  opacity: 80%;
+}
+
+.inputSkills,
+.inputExpertises {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inputSkills label,
+.inputExpertises label {
+  font-weight: 400;
+  font-size: 16px;
+}
+.inputSkills input,
+.inputExpertises input {
+  height: 20px;
+}
+
+.inputSkills input::placeholder {
+  font-size: 14px;
+}
+
+.inputSkill_item,
+.inputExpertises_item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.inputSkill__handle,
+.inputExpertises__handle {
+  display: flex;
+  margin-top: 5px;
+}
+.inputSkill_item:nth-child(n + 5) {
+  margin-top: 10px;
+}
+
+.removeLanguage,
+.removeExpertises {
+  margin-left: 5px;
+  padding: 5px;
+  color: white;
+  background-color: #de4a3e;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.removeLanguage:hover,
+.removeExpertises:hover {
+  opacity: 50%;
+}
+.submitBtn {
+  background-color: #3e7ed2;
+  font-weight: bold;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.aboutSkills:nth-child(n + 2) {
+  margin-top: 10px;
+}
+
+.formExperience,
+.formEducation,
+.formSkillSummary {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input_Experience {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputExperience__First {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputExperience_Second textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inputExperience__item .inputExperience__item label {
+  font-weight: 450;
+}
+
+.inputExperience__item input {
+  margin-top: 5px;
+  width: 90%;
+}
+.inputExperience__item label {
+  font-weight: 400;
+}
+.inputExperience__item strong {
+  color: black;
+}
+.inp_textarea {
+  width: 100%;
+}
+
+.remove_ExperienceButton {
+  padding: 8px;
+  color: white;
+  width: 31.4px;
+  background-color: #de4a3e;
+  font-weight: bold;
+  font-size: 20px;
+  height: 40px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.remove_ExperienceButton:hover {
+  opacity: 80%;
+}
+
+.countCompany {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: tahoma;
+  padding: 10px;
+  border-radius: 5px;
+  width: 180px;
+  text-align: center;
+  margin-top: 10px;
+}
+.inputExperience__item label,
+.inputEducation__item label {
+  font-weight: bold;
+}
+
+.input_Education {
+  display: flex;
+}
+
+.inputEducation__item {
+  flex: 1;
+}
+
+.inputEducation__item input {
+  width: calc(
+    100% - 42px
+  ); /* Cung cấp 2px bổ sung để làm tròn số khi tính toán */
+  margin-top: 5px;
+  box-sizing: border-box; /* Đảm bảo kích thước của input bao gồm cả padding và border */
+  padding: 8px;
+  border: 1px solid #ccc; /* Thêm border để tạo ra đường viền cho input */
+}
+
+.inputDate button {
+  padding: 8px;
+  color: white;
+  width: 31.4px;
+  background-color: #de4a3e;
+  font-weight: bold;
+  font-size: 18px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+  left: 10;
+  top: -25;
+}

@@ -1,0 +1,227 @@
+{
+  "profiles": [
+    {
+      "fullName": "Phuong Ly abc",
+      "image": "https://boxgaixinh.net/wp-content/uploads/2023/01/50-Copy-13.jpg",
+      "profession": "Product Design",
+      "phone": "384985533",
+      "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue dui.",
+      "email": "phuongly@gmail.com",
+      "address": "45 California. Highway Street. USA",
+      "languages": [
+        "German",
+        "English",
+        "Spanish"
+      ],
+      "expertise": [
+        "Management skill",
+        "Leadership",
+        "Digital Marketing"
+      ],
+      "experience": [
+        {
+          "name": "Arowwai Industries",
+          "local": "Sydney - Australia",
+          "years": "2020 - 2022",
+          "desc": "1/Quản trị kinh doanh: Quản lý nhân viên công ty. \n 2/ Digital Marketing."
+        },
+        {
+          "name": "Arowwai Industries",
+          "local": "Sydney - Australia",
+          "years": "2020 - 2022",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augueg."
+        },
+        {
+          "name": "Arowwai Industries",
+          "local": "Sydney - Australia",
+          "years": "2020 - 2022",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augueg."
+        }
+      ],
+      "education": [
+        {
+          "schoolName": "Borcrelle University",
+          "schoolMajor": "Bachelor of Business Management",
+          "schoolYears": "2014-2018"
+        },
+        {
+          "schoolName": "Borcrelle University",
+          "schoolMajor": "Bachelor of Business Management",
+          "schoolYears": "2014-2018"
+        }
+      ],
+      "skillbonus": "",
+      "id": 1
+    },
+    {
+      "fullName": "Long Le ",
+      "image": "https://img.freepik.com/free-photo/happy-confident-asian-male-entrepreneur-crossing-arms-chest_1262-17039.jpg?w=1060&t=st=1700740453~exp=1700741053~hmac=1460e98c4389bf136c7c6fb050726d5da4d9e4f8caa632c4a08ebc9cd560c7a3",
+      "profession": "Web Development",
+      "phone": "4526289",
+      "introduction": "Hi, i'm Long, i'm a student of FPT PolyTechnic",
+      "email": "okokabc23@gmail.com",
+      "address": "45 Nguyen Trung Truc",
+      "languages": [
+        "English",
+        "Germany",
+        "France",
+        "VN"
+      ],
+      "expertise": [
+        "Team Work",
+        "Digital Marketing",
+        "Football"
+      ],
+      "experience": [
+        {
+          "name": "Admicro Shop",
+          "local": "TP HCM - VIET NAM",
+          "years": "2022 - 2025",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue."
+        }
+      ],
+      "education": [
+        {
+          "schoolName": "FPT POLYTECHNIC",
+          "schoolMajor": "Web Development",
+          "schoolYears": "2021"
+        },
+        {
+          "schoolName": "RMIT 2",
+          "schoolMajor": "Digital Marketing",
+          "schoolYears": "2015"
+        }
+      ],
+      "skillbonus": "HTML, CSS, WORLD ,EXCEL",
+      "id": 2
+    },
+    {
+      "fullName": "admin",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=2074&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "profession": "IT",
+      "phone": "0384985533",
+      "introduction": "ádsadasd",
+      "email": "okokabc23@gmail.com",
+      "address": "45 NTT",
+      "languages": [
+        "abc",
+        "ádad",
+        "ádasd"
+      ],
+      "expertise": [
+        "sadasdsa",
+        "sadasd",
+        "ádasd"
+      ],
+      "experience": [
+        {
+          "name": "abcxyz",
+          "local": "abcxyz",
+          "years": "abcxyz",
+          "desc": ""
+        }
+      ],
+      "education": [
+        {
+          "schoolName": "FPT POLYTECHNIC ABC",
+          "schoolMajor": "logictic",
+          "schoolYears": "123"
+        }
+      ],
+      "skillbonus": "sadasd",
+      "id": 3
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1648075082539-ca4a311d2afa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "fullName": "Nam",
+      "profession": "Teacher",
+      "introduction": "Hi, my name is Nam",
+      "phone": "0384985533",
+      "email": "namnt20128@gmail.com",
+      "address": "long123@gmail.com",
+      "languages": [
+        "ENGLISH"
+      ],
+      "expertise": [
+        "MARKETING",
+        "ABC ",
+        "XYZ"
+      ],
+      "experience": [
+        {
+          "name": "abcxyz",
+          "local": "abcxyz",
+          "years": "abcxyz",
+          "desc": "This is abc"
+        }
+      ],
+      "education": [
+        {
+          "schoolName": "fpt",
+          "schoolMajor": "Web",
+          "schoolYears": "2023"
+        },
+        {
+          "schoolName": "FPT 2",
+          "schoolMajor": "it",
+          "schoolYears": "2025"
+        }
+      ],
+      "skillbonus": "world,excel",
+      "id": 4
+    },
+    {
+      "fullName": "Phuong Ly abc",
+      "image": "https://boxgaixinh.net/wp-content/uploads/2023/01/50-Copy-13.jpg",
+      "profession": "Product Design",
+      "phone": "384985533",
+      "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue dui.",
+      "email": "phuongly@gmail.com",
+      "address": "45 California. Highway Street. USA",
+      "languages": [
+        "German",
+        "English",
+        "Spanish ádasd"
+      ],
+      "expertise": [
+        "Management skill",
+        "Leadership",
+        "Digital Marketing"
+      ],
+      "experience": [
+        {
+          "name": "Arowwai Industries",
+          "local": "Sydney - Australia",
+          "years": "2020 - 2022",
+          "desc": "1/Quản trị kinh doanh: Quản lý nhân viên công ty. \n 2/ Digital Marketing."
+        },
+        {
+          "name": "Arowwai Industries",
+          "local": "Sydney - Australia",
+          "years": "2020 - 2022",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augueg."
+        },
+        {
+          "name": "Arowwai Industries",
+          "local": "Sydney - Australia",
+          "years": "2020 - 2022",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augueg."
+        }
+      ],
+      "education": [
+        {
+          "schoolName": "Borcrelle University",
+          "schoolMajor": "Bachelor of Business Management",
+          "schoolYears": "2014-2018"
+        },
+        {
+          "schoolName": "Borcrelle University",
+          "schoolMajor": "Bachelor of Business Management",
+          "schoolYears": "2014-2018"
+        }
+      ],
+      "skillbonus": "",
+      "id": 5
+    }
+  ]
+}

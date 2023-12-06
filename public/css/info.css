@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #d5d5d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  color: black;
+}
+
+.main {
+  width: 700px;
+  max-width: 1000px;
+  background-color: white;
+  box-shadow: 0px 10px 50px #858585;
+}
+.backgroundCV {
+  height: 200px;
+  position: relative;
+  background-color: white;
+  display: flex; /* Sử dụng flexbox cho .backgroundCV */
+}
+
+.CvLeft {
+  width: 40%;
+  max-width: 40%;
+  background-color: #191919;
+}
+.cvCenter {
+  position: absolute;
+  background-color: #043382;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  top: 22%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.cvCenter img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 30px;
+  border: 4px solid white;
+  object-fit: cover;
+}
+
+.cvCenter .profileTitle {
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+.nameProfile {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  /* width: 200px; */
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 3px;
+  /* margin-left: 50px; */
+}
+
+.jobProfile {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.cvRight {
+  width: 65%;
+}
+.content_CV {
+  height: auto;
+  width: 100%;
+  float: right;
+  color: white;
+  display: flex; /* Sử dụng flexbox cho .content_CV */
+}
+
+.contentCV_Left {
+  width: 40%;
+  background-color: #191919;
+}
+
+.cvInfo_Left_Content {
+  margin-top: 20px;
+  padding: 2%;
+}
+.cvInfo_Left_Content .aboutProfile {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutProfile h2 {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutProfile p {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.contentContact {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.iconFont {
+  background-color: #0774bb;
+  padding: 5px;
+  border-radius: 50%;
+}
+.textIcon {
+  margin-left: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+}
+
+.languagesProfile {
+  margin-top: 20px;
+}
+.languagesProfile button {
+  border: 2px solid #043382;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  letter-spacing: 2;
+  margin-bottom: 10px;
+}
+
+.languagesProfile li {
+  margin-top: 5px;
+  margin-left: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+.expertisesProfile {
+  margin-top: 20px;
+}
+.expertisesProfile button {
+  border: 2px solid #043382;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  letter-spacing: 2;
+  margin-bottom: 10px;
+}
+
+.expertisesProfile li {
+  margin-top: 5px;
+  margin-left: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.contentCV_Right {
+  width: 65%;
+  background-color: white;
+}
+
+.cvInfo_Right_Content {
+  padding: 10px;
+}
+
+.Experience button {
+  color: white;
+  background-color: #043382;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  width: 170px;
+  border-radius: 20px;
+  border: none;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.experience_Content {
+  margin-bottom: 20px;
+}
+.experience_Content p {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.experience_Content .aboutJob {
+  margin-top: 5px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 13px;
+}
+.companyLoca,
+.yearOperation {
+  margin-top: 5px;
+}
+.Education button {
+  color: white;
+  background-color: #043382;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  width: 170px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.universityName {
+  margin-bottom: 5px;
+}
+.education_Content {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+}
+.education_Content p {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.education_Content .aboutJob {
+  margin-top: 5px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.education_Content .major {
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 13px;
+}
+.education_Content .yearOperation {
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.skill_Summary button {
+  color: white;
+  background-color: #043382;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  width: 170px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.aboutSkill p {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+#myDropdown {
+  display: none;
+}

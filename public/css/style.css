@@ -1,0 +1,220 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #313131;
+}
+
+.header h1 {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #4d8bdb;
+}
+
+.nav {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 40px;
+  /* float: right; */
+}
+
+.btnAdd {
+  padding: 10px;
+  background-color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.btnAdd i {
+  font-size: 20px;
+  background-color: #4d8bdb;
+  font-weight: bold;
+  color: white;
+  border-radius: 20%;
+  padding: 5px;
+}
+
+.btnAdd button {
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.btnAdd:hover {
+  opacity: 80%;
+}
+
+.boxCV {
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  justify-content: space-around;
+  grid-row-gap: 20px;
+}
+
+.cv_Item {
+  width: 300px;
+  /* border: 1px solid red; */
+  height: 150px;
+  z-index: 1;
+
+  /* box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.1); */
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.imgCv {
+  border-radius: 20px;
+  width: 100%;
+  height: 180px;
+
+  background-size: cover;
+  background-position: center;
+  opacity: 50%;
+}
+
+.imgCv:hover {
+  transition: 0.5s;
+  opacity: 100%;
+  background-image: url("https://i1-ngoisao.vnecdn.net/2021/01/05/phuongly0926-20190919151153-3235-1609845638.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=9AW0D8zPHzGZDuP6Z2KJRw");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.infoCv {
+  position: absolute;
+  bottom: -30;
+  left: 0;
+  right: 5;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.infoCv p {
+  width: 300px;
+  line-height: 25px;
+}
+.iconInfo {
+  font-size: 20px;
+  position: absolute;
+  z-index: 2;
+  right: 5;
+  top: 12;
+}
+.iconInfo:hover {
+  color: #3885eb;
+}
+
+/* Ẩn dropContent ban đầu */
+.dropContent {
+  display: none;
+}
+
+/* Hiển thị dropContent khi có lớp 'show' */
+.dropContent.show {
+  display: block;
+  position: absolute;
+  z-index: 9999;
+  top: -70;
+  right: 20;
+}
+.dropContent ul {
+  width: 120px;
+  list-style: none;
+  border-radius: 10px;
+  background-color: #313131;
+
+  /* pad */
+}
+.dropItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #313131;
+  padding: 5px;
+  width: 120px;
+}
+.dropbox {
+  background-color: #313131;
+  border-radius: 5px;
+  margin-top: -20px;
+}
+.dropContent a {
+  /* margin-bottom: 3px; */
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+}
+
+.dropContent a:nth-child(2):hover {
+  background-color: #4d8bdb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.dropContent a:nth-child(3):hover {
+  background-color: #4dbd91;
+
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.dropContent a:nth-child(4):hover {
+  background-color: #de4a3e;
+
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.tahoma-font {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Trong file CSS của bạn */
+.custom-swal-button {
+  background-color: #de4a3e !important; /* Màu nền tùy chọn với !important */
+  color: white !important; /* Màu chữ tùy chọn với !important */
+  /* Các thuộc tính khác nếu cần */
+  border: 1px solid white !important;
+}
